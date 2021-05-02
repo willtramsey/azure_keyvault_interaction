@@ -15,7 +15,7 @@ credential = AzureCliCredential()
 client = SecretClient(vault_url=KVUri, credential=credential)
 
 secretName = "wramsey"
-secretValue = "P0#erBI"
+secretValue = "redacted"
 
 
 # client.set_secret(secretName, secretValue)
